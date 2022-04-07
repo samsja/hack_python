@@ -1,5 +1,4 @@
-import night_club_entrance.helper
-
+import night_club_entrance.helper.helper
 
 class Bouncer:
     def should_i_kick_him_out(self, age: int) -> bool:
