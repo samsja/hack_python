@@ -1,4 +1,4 @@
-import night_club_entrance.helper
+import night_club_entrance.helper as helper
 
 
 class Bouncer:
@@ -11,6 +11,8 @@ class Bouncer:
 
 
 if __name__ == '__main__':
+
+    helper.print_nice_banner()
 
     bouncer = Bouncer()
 
